@@ -1,0 +1,20 @@
+[
+  {
+    "title": "pizza ",
+    "price": 300,
+    "thumbnail": "url",
+    "id": 1
+  },
+  {
+    "title": "papas con bacon ",
+    "price": 324,
+    "thumbnail": "url",
+    "id": 2
+  },
+  {
+    "title": "papas con chedar ",
+    "price": 320,
+    "thumbnail": "url",
+    "id": 3
+  }
+]
