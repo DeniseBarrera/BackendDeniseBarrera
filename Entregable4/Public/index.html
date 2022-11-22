@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Entregable 4</title>
+</head>
+
+<body>
+    <form action="/api/productos" method="post">
+        <div>
+            <label for="title">Nombre del producto:</label>
+            <input type="text" name="title" id="title" required />
+        </div>
+        <div>
+            <label for="title">Precio del producto:</label>
+            <input type="number" name="price" id="price" required />
+        </div>
+        <div>
+            <label for="thumbnail">URL del thumbnail</label>
+            <input type="url" name="thumbnail" id="thumbnail" required />
+        </div>
+        <div>
+            <input type="submit" value="Guardar" />
+        </div>
+        <div>
+            <input type="reset" value="Eliminar" />
+        </div>
+    </form>
+</body>
+
+</html>
