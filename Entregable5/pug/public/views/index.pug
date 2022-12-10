@@ -1,0 +1,19 @@
+extends main 
+block index
+
+    body
+        h1(class="text-center my-5")="PUG" 
+        div(class="container my-5 d-flex flex-column")
+            form(action="/productos" method="post" class="bg-success p-3 rounded")
+                div(class="form-floating mb-3")
+                    input(type="text" class="form-control" id="floatingInput" placeholder="Nombre del producto" name="Nombre")
+                    label(for="floatingInput")="Title" 
+                div(class="form-floating mb-3")
+                    input(type="text" class="form-control" id="floatingInput" placeholder="Precio del producto $" name="Precio")
+                    label(for="floatingInput")="Price" 
+                div(class="form-floating mb-3")
+                    input(type="text" class="form-control" id="floatingInput" placeholder="URL de la foto del producto" name="Imagen")
+                    label(for="floatingInput")="Thumbnail"
+                button(type="submit" class="btn btn-primary")="ENVIAR"
+            a(href="/productos" class="align-self-center")
+                button(class="btn btn-secondary my-5" type="button")="Ir a productos"
