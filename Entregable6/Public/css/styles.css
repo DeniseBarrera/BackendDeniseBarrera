@@ -1,0 +1,17 @@
+h1 {
+    color: blue;
+}
+
+.tableProducts {
+    background-color:whitesmoke;
+    border-radius: 5px;
+}
+
+.jumbotron {
+    min-height: 100vh;
+}
+
+#message {
+    background-color: rgb(165, 188, 202);
+    border-radius: 5px;
+}
